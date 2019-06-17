@@ -1,0 +1,42 @@
+[
+    {
+        "title" : "Еда",
+        "color" : "#c69a95",
+        "link" : "food.html"
+    },
+    {
+        "title" : "Напитки",
+        "color" : "#bcbc9f",
+        "link" : "drinks.html"
+    },
+    {
+        "title" : "Специи",
+        "color" : "#da7153",
+        "link" : "spices.html"
+    },
+    {
+        "title" : "биодобавки",
+        "color" : "#DBA05A",
+        "link" : "spices.html"
+    },
+    {
+        "title" : "гигиена",
+        "color" : "#F1BB52",
+        "link" : "spices.html"
+    },
+    {
+        "title" : "косметика",
+        "color" : "#EF6F6F",
+        "link" : "spices.html"
+    },
+    {
+        "title" : "здоровье",
+        "color" : "#A4C88C",
+        "link" : "spices.html"
+    },
+    {
+        "title" : "Специи",
+        "color" : "#da7153",
+        "link" : "spices.html"
+    }
+]

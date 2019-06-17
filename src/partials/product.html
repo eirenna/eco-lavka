@@ -1,0 +1,14 @@
+<article class="ba-product">
+  <button title="Добавить в избранное: {{post.title}}" class="ba-add-to-featured">
+    <svg width="28" height="23">
+      <use xlink:href="#heart" />
+    </svg>
+  </button>
+  <a class="ba-product__link" href="{{ root }}/single.html">
+    <img src="{{ root }}{{post.img}}" alt="{{post.title}}" />
+    <h3 class="ba-product__title h4">{{post.title}}</h3>
+    <p class="ba-product__price h4">от {{post.price}} грн/кг</p>
+    <!-- /.ba-product__price -->
+  </a>
+</article>
+<!-- /.ba-product -->

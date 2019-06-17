@@ -1,0 +1,39 @@
+---
+title: Каталог - Эко-лавка
+---
+
+<div class="row ba-main-content">
+  <div class="column small-12 medium-4 large-3">
+    {{>shop-sidebar}}
+  </div>
+  <!-- /.column small-12 -->
+  <div class="column small-12 medium-8 large 9">
+    <nav
+      class="show-for-medium"
+      aria-label="Вы сейчас здесь:"
+      role="navigation"
+    >
+      <ul class="breadcrumbs">
+        <li><a href="{{ root }}/shop.html">Давайте покупать</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Напитки</a></li>
+        <li><a href="#">Чай</a></li>
+        <li>
+          <span class="show-for-sr">Текущая страница: </span> Травяной чай
+        </li>
+      </ul>
+    </nav>
+    <div class="row">
+      {{#each products}}
+      <div class="columns small-6 large-4 xlarge-3 flex-container">
+        {{>product post=this}}
+      </div>
+      <!-- /.columns small-6 medium-4 large-3 -->
+      {{/each}}
+    </div>
+    <!-- /.row -->
+    {{>pagination}}
+  </div>
+  <!-- /.column small-12 -->
+</div>
+<!-- /.row -->

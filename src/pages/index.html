@@ -1,0 +1,60 @@
+---
+title: Эко-лавка - Beetroot Academy
+---
+<section class="ba-intro">
+    <div class="row column">
+        <div class="ba-intro__inner">
+    <div class="ba-intro__top show-for-medium">
+        Health
+        <img src="{{root}}/assets/img/bird-01.png" alt="">
+        Style
+    </div>
+    <!-- /.ba-intro__top -->
+    <h1 class="ba-page-title show-for-medium">ЭКО-ЛАВКА</h1>
+    <p class="ba-page-subtitle">товары для здоровой жизни</p>
+        </div>
+        <!-- /.ba-intro__inner -->
+    </div>
+    <!-- /.row column -->
+</section>
+<!-- /.ba-intro -->
+<section class="ba-special-offers text-center">
+    <div class="row column">
+        <div class="ba-special-offers__inner">
+            <img src="{{root}}/assets/img/bird-colored.png" alt="" class="ba-special-offers__img show-for-medium">
+            <img src="{{root}}/assets/img/bird-colored.png" alt="" class="ba-special-offers__img ba-special-offers__img--right show-for-medium">
+            <h2 class="ba-section-title">для вас</h2>
+            <p>Скидка 3%  -  при заказе на сумму от 500 грн. </p>
+            <p>Скидка 5%  -  при заказе на сумму от 1000 грн. </p>
+            <p>Скидка 7%  -  при заказе на сумму от 2000 грн. </p>
+        </div>
+        <!-- /.ba-special-offers__inner -->
+    </div>
+    <!-- /.row column -->
+</section>
+<!-- /.ba-special-offers -->
+<section class="ba-section-catalog">
+    <div class="row column text-center">
+        <h2>Каталог</h2>
+    </div>
+    <!-- /.row column -->
+    <div class="row">
+        {{#each categories}}
+        <div class="columns small-6 medium-4 large-3">
+            <a href="{{this.link}}" class="ba-category-link" style="background-color: {{this.color}}">
+                <div class="ba-category-link__body">
+                    <h3 class="ba-category-link__title">{{this.title}}</h3>
+                    <!-- /.ba-category-link__title -->
+                    <div class="ba-category-link__label show-for-medium">Смотреть</div>
+                    <!-- /.ba-category-link__label -->
+                </div>
+                <!-- /.ba-category-link__body -->
+            </a>
+        </div>
+        <!-- /.columns small-12 medium-4 large-3 -->
+        {{/each}}
+    </div>
+    <!-- /.row -->
+</section>
+<!-- /.ba-section-catalog -->
+{{>subscribe}}
