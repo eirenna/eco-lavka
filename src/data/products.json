@@ -3,54 +3,54 @@
         "title" : "Анчан",
         "price" : "110",
         "link" : "single.html",
-        "img" : "/assets/img/products/11.jpg"
+        "img" : "assets/img/products/11.jpg"
     },
     {
         "title" : "Чудесный Годжи",
         "price" : "120",
         "link" : "singleks.html",
-        "img" : "/assets/img/products/20.jpg"
+        "img" : "assets/img/products/20.jpg"
     },
     {
         "title" : "Специи",
         "price" : "150",
         "link" : "singlees.html",
-        "img" : "/assets/img/products/24.jpg"
+        "img" : "assets/img/products/24.jpg"
     },
     {
         "title" : "биодобавки",
         "price" : "110",
         "link" : "singlees.html",
-        "img" : "/assets/img/products/11.jpg"
+        "img" : "assets/img/products/11.jpg"
     },
     {
         "title" : "гигиена",
         "price" : "110",
         "link" : "singlees.html",
-        "img" : "/assets/img/products/20.jpg"
+        "img" : "assets/img/products/20.jpg"
     },
     {
         "title" : "косметика",
         "price" : "110",
         "link" : "singlees.html",
-        "img" : "/assets/img/products/24.jpg"
+        "img" : "assets/img/products/24.jpg"
     },
     {
         "title" : "здоровье",
         "price" : "110",
         "link" : "singlees.html",
-        "img" : "/assets/img/products/11.jpg"
+        "img" : "assets/img/products/11.jpg"
     },
     {
         "title" : "Специи",
         "price" : "110",
         "link" : "singlees.html",
-        "img" : "/assets/img/products/20.jpg"
+        "img" : "assets/img/products/20.jpg"
     },
     {
         "title" : "здоровье",
         "price" : "110",
         "link" : "singlees.html",
-        "img" : "/assets/img/products/11.jpg"
+        "img" : "assets/img/products/11.jpg"
     }
 ]
